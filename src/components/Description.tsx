@@ -11,7 +11,11 @@ export const Description = () => (
     </p>
     <p>
       You can view the source for this site at{" "}
-      <a href="https://github.com/chadlavi/skipto">
+      <a
+        href="https://github.com/chadlavi/skipto"
+        target="_blank"
+        rel="noreferrer"
+      >
         https://github.com/chadlavi/skipto
       </a>
       .

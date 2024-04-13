@@ -6,7 +6,7 @@ export const Header = () => {
         <h1>SKipTo</h1>
       </div>
       <a
-        href="https://github.com/chadlavi/skipto/issues/new"
+        href="https://github.com/chadlavi/skipto/issues/new?labels=submission&template=add-podcast.md&title=Add+podcast%3A+TITLE"
         target="_blank"
         className="button"
         rel="noreferrer"
