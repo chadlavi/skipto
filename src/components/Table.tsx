@@ -2,7 +2,6 @@ import classNames from "classnames";
 import podcasts from "../data/podcasts";
 import { formatTimestamp, sortPodcasts, useRefDimensions } from "../utils";
 import { useRef, useState } from "react";
-import { SortButton } from "./SortButton";
 import { IconSortAscending, IconSortDescending } from "./icons";
 
 export const Table = () => {
