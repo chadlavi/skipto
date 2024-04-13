@@ -1,6 +1,6 @@
 export const Header = () => {
   return (
-    <div className="flex justify-between mb-4 flex-col gap-y-2 items-start sm:flex-row sm:items-center">
+    <div className="flex justify-between mb-4 gap-y-2 items-center">
       <div className="flex gap-2 h-min">
         <img alt="" className="aspect-square" srcSet="./logo64.png 2x"></img>
         <h1>SKipTo</h1>
