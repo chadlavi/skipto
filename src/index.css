@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply antialiased;
+}
+
+table {
+  @apply rounded-lg w-full min-w-[500px];
+}
+
+thead,
+thead > tr {
+  @apply rounded-lg;
+}
+
+thead tr th:first-child {
+  @apply rounded-l-lg;
+}
+
+thead tr th:last-child {
+  @apply rounded-r-lg;
+}
+
+thead {
+  @apply bg-gray-100 text-gray-800;
+}
+
+th,
+td {
+  @apply text-left py-3 px-4;
+}
+
+th {
+  @apply text-xs font-semibold;
+}
+
+td {
+  @apply font-normal;
+}
+
+tbody tr:nth-child(2n) {
+  @apply rounded-lg;
+}
+
+tbody tr:nth-child(2n) td {
+  @apply bg-slate-50;
+}
+
+tbody tr:nth-child(2n) td:first-child {
+  @apply rounded-l-lg;
+}
+tbody tr:nth-child(2n) td:last-child {
+  @apply rounded-r-lg;
+}
+
+h1 {
+  @apply text-2xl font-bold;
+}
+
+h2 {
+  @apply text-lg font-bold;
+}
+
+a {
+  @apply text-blue-800;
+}
+
+p {
+  @apply mb-3;
+}
+
+.button {
+  @apply rounded bg-blue-700 text-white px-3 py-2 block font-normal hover:bg-blue-800 active:to-blue-900 cursor-pointer;
+}
+
+.fade-right {
+  mask-image: linear-gradient(90deg, #000 95%, transparent);
+}
+
+.fade-left {
+  mask-image: linear-gradient(-90deg, #000 95%, transparent);
+}
